@@ -1,5 +1,5 @@
 """
-balanced-dice
+balanced-dice-cli
 ----------------
 Author: Nida Anis
 Date: 21/12/2024
@@ -10,6 +10,7 @@ This program compares two dice rolling algorithms:
 2. Balanced dice: Ensures rolls follow expected probabilities.
  
 Features:
+- Command-line interface (CLI) program.
 - Simulates and compares both algorithms.
 - Analyses roll distributions for both algorithms.
 - Visualises comparison results.
@@ -131,7 +132,7 @@ Main program
 # Main program
 def main():
     print("----------------")
-    print("BALANCED DICE SIMULATION")
+    print("BALANCED DICE SIMULATOR")
     print("----------------")
     try:
         num_rolls = int(input("\nEnter the number of rolls: "))
